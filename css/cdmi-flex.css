@@ -1,0 +1,223 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@media (max-width:1400px) {
+    .w-1320 {
+        max-width: 1320px;
+    }
+    
+    .service-section,
+    .portfolio-section,
+    .team-section {
+        padding: 60px 0px;
+    }
+
+    .map1 iframe {
+        width: 581px;
+    }
+
+    .footer-right form input[type=email] {
+        width: 240px;
+    }
+
+    .col-new-1 {
+        padding: 0px 10px;
+    }
+
+    .head-nav ul ul ul {
+        left: -100%;
+    }
+}
+
+@media(max-width:1320px) {
+    .content-box .back-box {
+        left: 126px;
+    }
+
+    .footer-right form input[type=email] {
+        width: 182px;
+    }
+}
+
+@media (min-width:1141px) and (max-width:1320px) {
+    .w1320 {
+        max-width: 1140px;
+    }
+}
+
+
+@media (max-width:1200px) {
+    .w1320 {
+        max-width: 1140px;
+    }
+
+    .map1 iframe {
+        width: 467px;
+    }
+
+    .footer-right form input[type=email] {
+        width: 192px;
+    }
+
+    .footer-right form input[type=submit] {
+        padding: 9px;
+    }
+
+    .col-new-1 {
+        width: 18.5%;
+        padding: 0px 0px;
+    }
+
+    .content-box-1 .social-1 i {
+        padding: 9px;
+        width: 35px;
+        height: 35px;
+    }
+
+    .new .content-box {
+        padding: 30px 18px;
+    }
+
+    /* .content-box .back-box {
+        left: 126px;
+    } */
+}
+
+@media (min-width:993px) and (max-width:1140px) {
+    .w1320 {
+        max-width: 960px;
+    }
+
+    .footer-right form input[type=email] {
+        width: 136px;
+    }
+
+    .content-box .back-box {
+        left: 98px;
+    }
+}
+
+@media (max-width:992px) {
+    .w1320 {
+        max-width: 960px;
+    }
+    #hero{
+        height: 600px;
+    }
+    .w-100-head .flex{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .w-100-head .head-nav {
+        width: 100%;
+    }
+
+    .footer-top .row,
+    .contact-section .row,
+    .team-section .row,
+    .pricing-section .row,
+    .portfolio-image,
+    .service-section .row,
+    .box-section .row,
+    .client-section .row
+    {
+        flex-wrap: wrap;
+    }
+    .client-section .column-2{
+        width: 30%;
+    }
+    .box-section .column-1 {
+        width: calc(50% - 24px);
+    }
+
+    .portfolio-section .portfolio-image .column-3 {
+        width: calc(50% - 20px);
+    }
+
+    .pricing-section .col-new {
+        width: 100%;
+    }
+
+    .contact-section .column-50 {
+        width: 100%;
+    }
+
+    .contact-section .column-25 {
+        width: calc(50% - 24px);
+    }
+
+    .map1 iframe {
+        width: 100%;
+    }
+
+    .service-section .col-new {
+        width: calc(50% - 12px);
+    }
+
+    .footer-top .col-new,
+    .team-section .col-new {
+        width: calc(50% - 24px);
+    }
+
+    .footer-top .col-new-1 {
+        width: calc(25% - 14px);
+    }
+
+    .footer-top .col-new-2 {
+        width: calc(100% - 24px);
+        /* background-color: bisque; */
+    }
+
+    .footer-right form input[type=email] {
+        width: 550px;
+    }
+
+    .content-box .back-box {
+        left: 122px;
+    }
+
+    .ccc{
+       display: flex;
+       flex-direction: column;
+    }
+
+    .w100-head {
+        height: 115px;
+    }
+
+    .head-nav {
+        width: 100%;
+    }
+
+}
+
+@media (min-width:769px) and (max-width:960px) {
+    .w1320 {
+        max-width: 720px;
+    }
+
+}
+
+@media (max-width:768px) {
+    .w1320 {
+        max-width: 720px;
+    }
+
+    
+}
+
+@media (min-width:577px) and (max-width:720px) {
+    .w1320 {
+        max-width: 540px;
+    }
+
+}
+
+@media (max-width:576px) {
+    .w1320 {
+        max-width: 520px;
+    }
+}
